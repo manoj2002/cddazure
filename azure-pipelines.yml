@@ -12,7 +12,6 @@ pool:
 steps:
 - task: CmdLine@2
   inputs:
-    script: |
+    script:
       javac AddTwoNumbers.java
-      
       java AddTwoNumbers
